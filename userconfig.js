@@ -4,7 +4,7 @@ const palette = macchiato;
 const default_config = {
   overrideStorage: true,
   temperature: {
-    location: "London",
+    location: "Heilbronn",
     scale: "C",
   },
   clock: {
@@ -29,9 +29,9 @@ const default_config = {
               icon_color: palette.green,
             },
             {
-              name: "musicForProgramming();",
-              url: "https://musicforprogramming.net",
-              icon: "binary-tree",
+              name: "omnivore",
+              url: "https://omnivore.app/home",
+              icon: "library",
               icon_color: palette.peach,
             },
           ],
@@ -69,33 +69,33 @@ const default_config = {
           name: "media",
           links: [
             {
-              name: "уп",
-              url: "https://www.pravda.com.ua",
-              icon: "news",
-              icon_color: palette.green,
-            },
-            {
-              name: "mil.in.ua",
-              url: "https://mil.in.ua",
-              icon: "badge-filled",
-              icon_color: palette.peach,
-            },
-            {
-              name: "куток",
-              url: "https://kutok.io",
-              icon: "border-radius",
+              name: "youtube",
+              url: "https://www.youtube.com",
+              icon: "brand-youtube",
               icon_color: palette.red,
             },
             {
-              name: "ґрунт",
-              url: "https://grnt.media",
-              icon: "eye-bolt",
+              name: "twitch",
+              url: "https://www.twitch.tv",
+              icon: "brand-twitch",
+              icon_color: palette.mauve,
+            },
+            {
+              name: "reddit",
+              url: "https://www.reddit.com",
+              icon: "brand-reddit",
+              icon_color: palette.red,
+            },
+            {
+              name: "404media",
+              url: "https://www.404media.co/",
+              icon: "error-404-off",
               icon_color: palette.blue,
             },
             {
-              name: "village",
-              url: "https://www.village.com.ua",
-              icon: "home-2",
+              name: "arstechnica",
+              url: "https://arstechnica.com/",
+              icon: "flask",
               icon_color: palette.mauve,
             },
           ],
@@ -116,15 +116,15 @@ const default_config = {
               icon_color: palette.green,
             },
             {
-              name: "neptune",
-              url: "https://ui.neptune.ai",
-              icon: "circle-triangle",
-              icon_color: palette.peach,
+              name: "linear",
+              url: "https://linear.app",
+              icon: "moon-2",
+              icon_color: palette.blue,
             },
             {
-              name: "wakatime",
-              url: "https://wakatime.com",
-              icon: "24-hours",
+              name: "pagerduty",
+              url: "https://zapehr.pagerduty.com/",
+              icon: "alarm-plus",
               icon_color: palette.red,
             },
           ],
@@ -162,12 +162,6 @@ const default_config = {
           name: "blogs",
           links: [
             {
-              name: "dou",
-              url: "https://dou.ua",
-              icon: "brand-prisma",
-              icon_color: palette.green,
-            },
-            {
               name: "hackernews",
               url: "https://news.ycombinator.com",
               icon: "brand-redhat",
@@ -196,18 +190,6 @@ const default_config = {
         {
           name: "social medias",
           links: [
-            {
-              name: "telegram",
-              url: "https://web.telegram.org",
-              icon: "brand-telegram",
-              icon_color: palette.green,
-            },
-            {
-              name: "facebook",
-              url: "https://www.facebook.com",
-              icon: "brand-facebook",
-              icon_color: palette.peach,
-            },
             {
               name: "reddit",
               url: "https://www.reddit.com/r/unixporn",
@@ -249,9 +231,9 @@ const default_config = {
           name: "video",
           links: [
             {
-              name: "anilist",
-              url: "https://anilist.co/home",
-              icon: "brand-funimation",
+              name: "myanimelist",
+              url: "https://myanimelist.net",
+              icon: "mickey",
               icon_color: palette.green,
             },
             {
@@ -259,18 +241,6 @@ const default_config = {
               url: "https://www.youtube.com",
               icon: "brand-youtube",
               icon_color: palette.peach,
-            },
-            {
-              name: "patreon",
-              url: "https://www.patreon.com",
-              icon: "brand-patreon",
-              icon_color: palette.red,
-            },
-            {
-              name: "kyivstar",
-              url: "https://tv.kyivstar.ua",
-              icon: "star-filled",
-              icon_color: palette.blue,
             },
           ],
         },
