@@ -16,7 +16,7 @@ const default_config = {
   openLastVisitedTab: true,
   tabs: [
     {
-      name: "myself",
+      name: "life",
       background_url: "src/img/banners/cbg-9.gif",
       categories: [
         {
@@ -127,34 +127,28 @@ const default_config = {
               icon: "alarm-plus",
               icon_color: palette.red,
             },
+            {
+              name: "aws",
+              url: "https://console.aws.amazon.com/console/home?region=us-east-1#",
+              icon: "brand-aws",
+              icon_color: palette.blue,
+            },
+            {
+              name: "pganalyze",
+              url: "https://app.pganalyze.com/organizations/masslight/servers",
+              icon: "sql",
+              icon_color: palette.blue,
+            },
           ],
         },
         {
-          name: "challenges",
+          name: "l2p",
           links: [
-            {
-              name: "kaggle",
-              url: "https://www.kaggle.com",
-              icon: "brain",
-              icon_color: palette.green,
-            },
             {
               name: "leetcode",
               url: "https://leetcode.com",
               icon: "code-plus",
               icon_color: palette.peach,
-            },
-            {
-              name: "exercism",
-              url: "https://exercism.org",
-              icon: "code-minus",
-              icon_color: palette.red,
-            },
-            {
-              name: "stackoverflow",
-              url: "https://stackoverflow.com",
-              icon: "brand-stackoverflow",
-              icon_color: palette.blue,
             },
           ],
         },
@@ -166,12 +160,6 @@ const default_config = {
               url: "https://news.ycombinator.com",
               icon: "brand-redhat",
               icon_color: palette.peach,
-            },
-            {
-              name: "uber research",
-              url: "https://eng.uber.com/category/articles",
-              icon: "brand-uber",
-              icon_color: palette.red,
             },
             {
               name: "google research",
@@ -218,12 +206,6 @@ const default_config = {
               url: "https://store.epicgames.com",
               icon: "brand-fortnite",
               icon_color: palette.red,
-            },
-            {
-              name: "nintendo",
-              url: "https://store.nintendo.co.uk",
-              icon: "device-nintendo",
-              icon_color: palette.blue,
             },
           ],
         },
