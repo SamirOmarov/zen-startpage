@@ -247,7 +247,7 @@ class Tabs extends Component {
           font-weight: 600;
           letter-spacing: 1px;
           text-transform: uppercase;
-          font-family: 'Raleway', sans-serif;
+          font-family: "Source Sans 3", sans-serif;
       }
 
       .categories .link-icon {
